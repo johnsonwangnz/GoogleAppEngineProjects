@@ -13,7 +13,7 @@
   
   <servlet-mapping>
     <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/gbspring1/greet</url-pattern>
+    <url-pattern>/rpc/greet</url-pattern>
   </servlet-mapping>
   
   <servlet>
