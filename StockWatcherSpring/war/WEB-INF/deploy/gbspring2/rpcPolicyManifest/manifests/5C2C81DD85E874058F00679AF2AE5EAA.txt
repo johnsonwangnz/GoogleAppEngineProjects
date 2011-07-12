@@ -1,0 +1,2 @@
+serviceClass: gbpring1.gwt.stockwatcher.client.StockPriceService
+path: 743A7A88166D6D43F456F3828843644D.gwt.rpc

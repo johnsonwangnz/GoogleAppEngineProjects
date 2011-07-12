@@ -1,0 +1,2 @@
+# Module gbpring1.gwt.stockwatcher.StockWatcher
+# RPC service class, partial path of RPC policy file

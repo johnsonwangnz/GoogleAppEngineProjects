@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>greetServlet</servlet-name>
+    <servlet-class>gbspring1.server.GreetingServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>greetServlet</servlet-name>
+    <url-pattern>/gbspring1/greet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>stockPriceServiceImpl</servlet-name>
+    <servlet-class>gbpring1.gwt.stockwatcher.server.StockServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>stockPriceServiceImpl</servlet-name>
+    <url-pattern>/gbspring2/stockPrices</url-pattern>
+  </servlet-mapping>
+  
+    <!-- Servlets -->
+ <servlet>
+    <servlet-name>jsonStockData</servlet-name>
+    <servlet-class>gbspring1.gwt.stockwatcherjson.server.JSONStockData</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>jsonStockData</servlet-name>
+    <url-pattern>/gbspring3/stockPrices</url-pattern>
+  </servlet-mapping>
+
+   
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>GBSpring1.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>
