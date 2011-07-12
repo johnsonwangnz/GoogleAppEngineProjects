@@ -1,7 +1,8 @@
 *.symbolMap
 *.cache.*
 *.nocache.js
+*.gwt.rpc
 .metadata/
-classes/
-src/
-
+*/war/WEB-INF/classes/
+*/war/WEB-INF/deploy/
+*/war/*/gwt/*

@@ -1,2 +1,0 @@
-serviceClass: gbspring1.client.GreetingService
-path: 23E7C0888B9E9B85CCBF9D76D2939989.gwt.rpc
