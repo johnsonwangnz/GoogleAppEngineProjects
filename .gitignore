@@ -1,1 +1,7 @@
+*.symbolMap
+*.cache.*
+*.nocache.js
 .metadata/
+classes/
+src/
+
