@@ -34,7 +34,7 @@
 
   <servlet-mapping>
     <servlet-name>jsonStockData</servlet-name>
-    <url-pattern>/gbspring3/stockPrices</url-pattern>
+    <url-pattern>/rpc/stockPricesJSON</url-pattern>
   </servlet-mapping>
 
    

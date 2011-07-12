@@ -56,7 +56,7 @@ public class StockWatcherJSON implements EntryPoint {
 	 private ArrayList<String> stocks = new ArrayList<String>();
 
 
-	private static final String JSON_URL = GWT.getModuleBaseURL() + "stockPrices?q=";
+	private static final String JSON_URL = GWT.getHostPageBaseURL()+ "rpc/stockPricesJSON?q=";
 	
 	private Label errorMsgLabel = new Label();
 
