@@ -3,6 +3,7 @@
 *.nocache.js
 *.gwt.rpc
 .metadata/
+.gwt/
 */war/WEB-INF/classes/
 */war/WEB-INF/deploy/
 */war/*/gwt/*
