@@ -8,7 +8,7 @@ import com.google.gwt.user.server.rpc.RemoteServiceServlet;
  * The server side implementation of the RPC service.
  */
 @SuppressWarnings("serial")
-public class GreetingServiceImpl extends RemoteServiceServlet implements
+public class GreetingServiceImpl  implements
 		GreetingService {
 
 	public String greetServer(String input) throws IllegalArgumentException {
@@ -20,15 +20,13 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
 					"Name must be at least 4 characters long");
 		}
 
-		String serverInfo = getServletContext().getServerInfo();
-		String userAgent = getThreadLocalRequest().getHeader("User-Agent");
-
+		
 		// Escape data from the client to avoid cross-site script vulnerabilities.
 		input = escapeHtml(input);
-		userAgent = escapeHtml(userAgent);
+		
 
-		return "Hello, " + input + "!<br><br>I am running " + serverInfo
-				+ ".<br><br>It looks like you are using:<br>" + userAgent;
+		return "Hello, " + input + "!<br><br>I am running " 
+				+ ".<br><br>It looks like you are using:<br>" ;
 	}
 
 	/**
