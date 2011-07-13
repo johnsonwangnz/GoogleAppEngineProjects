@@ -44,6 +44,7 @@ implements Controller, ServletContextAware
                                  HttpServletResponse response)
                                  throws Exception
   {
+	
     doPost(request, response);
     return null; // response handled by GWT RPC over XmlHttpRequest
   }

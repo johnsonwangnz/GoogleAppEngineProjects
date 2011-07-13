@@ -1,13 +1,13 @@
 package gbpring1.gwt.stockwatcher.server;
 
-import com.google.gwt.user.server.rpc.RemoteServiceServlet;
+
 import gbpring1.gwt.stockwatcher.client.StockPrice;
 import gbpring1.gwt.stockwatcher.client.StockPriceService;
 import gbpring1.gwt.stockwatcher.client.DelistedException;
 
 import java.util.Random;
 
-public class StockServiceImpl extends RemoteServiceServlet implements
+public class StockServiceImpl  implements
 		StockPriceService {
 
 	private static final double MAX_PRICE = 100.0; // $100.00

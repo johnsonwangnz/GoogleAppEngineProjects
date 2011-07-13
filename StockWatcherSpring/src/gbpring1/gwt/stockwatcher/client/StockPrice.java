@@ -1,9 +1,10 @@
 package gbpring1.gwt.stockwatcher.client;
 
-import java.io.Serializable;
+import com.google.gwt.user.client.rpc.IsSerializable;
 
 
-public class StockPrice implements Serializable {
+
+public class StockPrice implements IsSerializable {
 
 	 private String symbol;
 	  private double price;
