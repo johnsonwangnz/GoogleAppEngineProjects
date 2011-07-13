@@ -1,8 +1,8 @@
 package gbpring1.gwt.stockwatcher.client;
 
-import java.io.Serializable;
+import com.google.gwt.user.client.rpc.IsSerializable;
 
-public class DelistedException extends Exception implements Serializable{
+public class DelistedException extends Exception implements IsSerializable{
 
 	private String symbol;
 
